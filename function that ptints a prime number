@@ -1,0 +1,7 @@
+def primenumbers(number):
+    for x in numbers:
+        if x%2==1:
+            print(x)
+numbers=range(1,25)
+number=numbers
+(primenumbers(number))            

@@ -1,0 +1,19 @@
+#PROGRAM TO CONVERT NUMBERS IN FIGURES TO WORDS
+number=input("enter a number in figure")
+word=int(number)
+if(number==1):
+    print("one")
+if(number==2):
+    print("two")
+if(number==3):
+    print("three")
+if(number==4):
+    print("four")
+if(number==5):
+    print("five")
+elif(number>100):
+    print("out of range")
+elif(number<1):
+    print("i cant determine this")
+else:
+    print("in word")

@@ -1,0 +1,52 @@
+"""exercise in CSC manual,pg 29.a program that prints all odd numbers between 20 and 50 using,list comprehension,function and class"""
+#A program that prints all odd numbers between 20-50
+
+
+#using list comprehension
+odd=[x for x in range(20,50)if x%2==1]
+print(odd)
+
+#using a function
+def odd_num(numbers):
+    for x in numbers:
+        if (x%2==1):
+            print(x)
+        
+numbers=range(20,50)
+(odd_num(numbers))
+
+#using a python class
+class oddnums:
+    def __init__(self,numbers):
+        self.numbers=numbers
+    def oddnum(self):    
+        for x in self.numbers:
+            if x%2==1:
+                print(x)
+
+task=oddnums(range(20,50))
+print(task.oddnum)
+
+"""a program that accepts a number and computes its cuberoot,using a user-defined function"""
+import math
+def cuberoot():
+    return math.sqrt(number)
+number=input('enter the number please!')
+numbers=int(number)
+
+print(cuberoot())
+
+#using a class
+class squareroot():
+    def __init__(self,number):
+        self.number=number
+    def root(self):
+        return math.sqrt(self.number)
+number=input('enter the number please!')
+numbers=int(number)
+
+getting=squareroot(numbers)
+print(getting.root())
+        
+
+

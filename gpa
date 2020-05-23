@@ -1,0 +1,9 @@
+GPA1=raw_input("Please enter your first semester GPA")
+GPA2=raw_input("Please enter your second semester GPA")
+#The first two lines collects the gpa of the student
+GPA1CONVERTED=float(GPA1)
+GPA2CONVERTED=float(GPA2)
+#the two lines above convert them to float
+CGPA=(GPA1CONVERTED+GPA2CONVERTED)/2 #This line finds the average
+print("this is your result",CGPA)
+

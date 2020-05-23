@@ -1,0 +1,32 @@
+#a program that simulates a rolling die
+import random
+game=input('do you want to play?')
+if game=='yes':
+    def rollingdie():
+        no_of_sides=6
+        max_no_of_die=6
+        min_no_of_die=1
+        while min_no_of_die < max_no_of_die:
+            print(random.randint(1,6))
+            min_no_of_die+=1
+            answer=input('play again,yes or no')
+            if answer=='yes':
+              continue
+            else:
+                print 'game over'
+                break
+    rollingdie()
+elif game=='no':
+      print('bye for now')                                      
+            
+
+
+                                            
+    
+
+                                                
+                                                
+                                               
+                                                
+            
+    

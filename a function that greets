@@ -1,0 +1,16 @@
+#a function that accepts a string and gives feedback
+def greet(names):
+    return  "hello" +" "+ names, "you are welcome" +" "+ names
+
+names=input('enter the name please!')
+print(greet(names))
+
+#a function that returns dictionary
+def foods(**items):
+    print (items)
+
+print foods(rice=3,beans=2,yam=21)
+    
+
+            
+  
